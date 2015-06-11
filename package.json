@@ -1,8 +1,11 @@
 {
   "name": "recurrimg-bot",
   "version": "0.1.0",
-  "description": "A twitter bot for recurisve images.",
+  "description": "A twitter bot for recursive images.",
   "main": "index.js",
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/doggan/recurrimg-bot.git"
@@ -21,6 +24,6 @@
   },
   "homepage": "https://github.com/doggan/recurrimg-bot",
   "devDependencies": {
-    "recursive-image-search": "git://github.com/doggan/recursive-image-search"
+    "recurrimg": "git://github.com/doggan/recurrimg"
   }
 }
