@@ -23,7 +23,9 @@
     "url": "https://github.com/doggan/recurrimg-bot/issues"
   },
   "homepage": "https://github.com/doggan/recurrimg-bot",
-  "devDependencies": {
-    "recurrimg": "git://github.com/doggan/recurrimg"
+  "dependencies": {
+    "recurrimg": "git://github.com/doggan/recurrimg",
+    "rimraf": "^2.4.1",
+    "twitter": "^1.2.5"
   }
 }
