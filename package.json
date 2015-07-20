@@ -23,6 +23,10 @@
     "url": "https://github.com/doggan/recurrimg-bot/issues"
   },
   "homepage": "https://github.com/doggan/recurrimg-bot",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
   "dependencies": {
     "commander": "^2.8.1",
     "lodash": "^3.10.0",
