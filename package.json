@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "commander": "^2.8.1",
+    "express": "^4.13.1",
     "lodash": "^3.10.0",
     "node-schedule": "^0.2.9",
     "recurrimg": "git://github.com/doggan/recurrimg",
