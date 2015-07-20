@@ -2,7 +2,10 @@
   "name": "recurrimg-bot",
   "version": "0.1.0",
   "description": "A twitter bot for recursive images.",
-  "bin": "lib/index.js",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "start": "node lib/daemon.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/doggan/recurrimg-bot.git"
@@ -22,6 +25,8 @@
   "homepage": "https://github.com/doggan/recurrimg-bot",
   "dependencies": {
     "commander": "^2.8.1",
+    "lodash": "^3.10.0",
+    "node-schedule": "^0.2.9",
     "recurrimg": "git://github.com/doggan/recurrimg",
     "rimraf": "^2.4.1",
     "twitter": "^1.2.5"
